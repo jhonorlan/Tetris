@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tetris</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				align-items: center;
+				height: 100vh;
+			}
+
+			canvas {
+				width: 600px;
+				height: 600px;
+				border: 1px solid #ebeeee;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="GAME"></canvas>
+		<script type="module" src="./Tetris.js"></script>
+	</body>
+</html>
